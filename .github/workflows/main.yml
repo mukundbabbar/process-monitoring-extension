@@ -37,7 +37,7 @@ jobs:
           name: Package
           path: staging/*.zip
 
-      - name: Step 8 - Upload binaries to release
+      - name: Step 8 - Upload binaries to release.
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
